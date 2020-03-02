@@ -5,7 +5,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMod"
+    "ExampleMod",
+    "staticFOV"
   ],
   "injectors": {
     "defaultRequire": 1

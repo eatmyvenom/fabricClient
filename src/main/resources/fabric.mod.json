@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "clienttweaks",
   "version": "${version}",
 
   "name": "Nofog",
@@ -17,19 +17,12 @@
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.eatmyvenom.nofog.entry"
-    ]
-  },
   "mixins": [
-    "modid.mixins.json"
+    "clientTweaks.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.2",
-    "fabric": "*",
-    "minecraft": "1.15.x"
+    "fabricloader": ">=0.7.8"
   },
   "suggests": {
     "flamingo": "*"
