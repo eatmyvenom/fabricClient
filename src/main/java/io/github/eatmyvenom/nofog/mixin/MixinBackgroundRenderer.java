@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(BackgroundRenderer.class)
-public class ExampleMod {
+public class MixinBackgroundRenderer {
 	@Inject(at = @At("INVOKE"), method = "applyFog", cancellable = true)
 	private static void nofog(CallbackInfo ci) {
 		ci.cancel();
