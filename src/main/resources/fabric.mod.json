@@ -3,8 +3,8 @@
   "id": "clienttweaks",
   "version": "${version}",
 
-  "name": "Nofog",
-  "description": "It literally takes the fog function and cancels it",
+  "name": "Client Tweaks",
+  "description": "Dumb small things I like to have for testing",
   "authors": [
     "Me!"
   ],
